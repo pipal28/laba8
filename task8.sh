@@ -3,5 +3,6 @@
 touch first.txt
 mkdir newdir
 mv first.txt newdir
-echo date -u >> newdir/first.txt
+cd newdir
+date>> test.txt
 exit 0
